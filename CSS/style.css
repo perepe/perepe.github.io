@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  overscroll-behavior-y: none;
 }
 
 /* Make content area fill the entire browser window */
@@ -10,12 +11,14 @@ html,
   margin: 0;
   padding: 0;
   width: 100%;
+  overscroll-behavior-y: none;
 }
 
 /* Center the content in the browser window */
 .container {
   margin: auto;
   text-align: center;
+  overscroll-behavior-y: none;
 }
 
 .title {
